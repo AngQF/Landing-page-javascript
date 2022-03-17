@@ -17,8 +17,6 @@ const regalo = () => {
   let color = ["NEGRA", "MARRÓN", "BLANCA"];
   let marca = ["DENMARK"];
 
-  let regalazo = "";
-
   let prendaindex = Math.floor(Math.random() * prenda.length);
   let colorindex = Math.floor(Math.random() * color.length);
   let marcaindex = Math.floor(Math.random() * marca.length);
