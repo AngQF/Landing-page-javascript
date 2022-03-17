@@ -1,1 +1,15 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+footer img {
+  height: 60px;
+}
+
+.background-image {
+  background-image: url(https://media.istockphoto.com/photos/fall-background-with-warm-sweaters-pile-of-knitted-clothes-with-picture-id1167414727?k=20&m=1167414727&s=170667a&w=0&h=obhTTwXX-O3lTa_dwazFHH4mrRnHo59a7xJBk85FmTs=);
+}
+
+nav {
+  padding: 15px 15px 15px 25px;
+}
+
+nav img {
+  height: 60px;
+}

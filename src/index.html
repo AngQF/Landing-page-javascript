@@ -1,29 +1,251 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
-  </body>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/f05818bc22.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Denmark Apparel</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark pb-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/768px-Flag_of_Denmark.svg.png?20200324004249" alt="logo"></img></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hombre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mujer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Niños</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Calzado</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </nav> 
+        </header>
+
+        <div class="container-fluid">
+            <div class="row text-center float-center background-image p-4 mt-5">
+                <div class="row">
+                    <h1 class="card-title mt-4 text-dark" style="-webkit-text-stroke: 1px white; font-size: 70px;"><b>Hasta 40 %</b></h1>
+                </div>
+                <div class="row">
+                    <p class="card-text fs-2 text-dark" style="-webkit-text-stroke: 1px rgba(255, 255, 255, 0.788);"><b>en toda la colección de otoño*</b></p>
+                </div>
+                <div class="row justify-content-center"><button class="btn btn-dark col-4 mt-2" type="button">Comprar ahora</button></div>
+                <div class="row">
+                    <p class="card-text text-dark"><small class="text-dark">*Oferta válida hasta 22/12/22</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="py-3 d-flex justify-content-center" style="background-color: burlywood;">
+            <div class="col-3">
+                <i class="fa-solid fa-truck-fast"><p><small>Envío gratis en pedidos superiores a 50€</small></p></i>
+            </div>
+            <div class="col-3" style="text-align: center;">
+                <i class="fa-solid fa-shop"><p><small>Recogida gratis en tienda</small></p></i>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-tags"><p><small>Certificado de moda sostenible</small></p></i>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-12">
+                <p class="text-center">ENCUENTRA NUESTRAS PRENDAS EN</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 "></div>
+            <div class="col-3">
+                <img src="http://d3g9pb5nvr3u7.cloudfront.net/sites/555cabdbf52dc2d02974e657/696034127/256.jpg"style="width: 3cm;" alt="logo-vogue">
+            </div>
+            <div class="col-2">
+                <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/tpdqdngq1okhuxhqtois" style="width: 3cm;" alt="logo-fashionista">
+            </div>
+        </div>
+        <div class="container-fluid mt-4 mx-0 py-5 d-flex" style="background-color: burlywood;">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <p class="text-center pb-3 fs-5">PRODUCTOS MEJOR VALORADOS POR NUESTROS CLIENTES</p>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <div class="card">
+                        <div class="card-body row">
+                            <div class="col">
+                                <h6 class="card-title">Denmark classic boots</h6>
+                                <img src="https://media.vogue.es/photos/5f8550bf5a26b2fae28e9aac/master/w_2362,h_2953,c_limit/alohas.jpg" class="img-fluid" style="height: 7cm; width: 100%;" alt="botas marrones">
+                                <p>"Son muy cómodas, me encantan."</p>
+                                <p>-Maria Martín</p>
+                                <p class="card-text">Valoración<i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                                <a href="#" class="btn btn-dark btn-sm">Buscar botas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">Cazadora marrón</h6>
+                            <img src="https://cdn.laredoute.com/products/4/3/1/431a0fb6602ee50c3d4bf85cdb4a54d5.jpg?imgopt=twic&twic=v1/resize=300" class="img-fluid" style="height: 7cm; width: 100%;" alt="cazadora marrón">
+                            <p class="">"Muy buena calidad, envío rápido."</p>
+                            <p>-Lidya Villanueva</p>
+                            <p class="card-text">Valoración <i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                            <a href="#" class="btn btn-dark btn-sm">Buscar chaquetas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">Reloj Denmark classic</h6>
+                            <img src="https://cdn.shopify.com/s/files/1/0273/4542/0391/files/WELCOME_TO_OUR_4f5511c6-a8f4-4ed2-bec1-f33d789dbe0e.png?v=1642525872" class="img-fluid" style="height: 7cm; width: 100%;" alt="reloj">
+                            <p class="">"Es cómodo y ligero."</p>
+                            <p>-Pedro Gutiérrez</p>
+                            <p class="card-text">Valoración <i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+                            <a href="#" class="btn btn-dark btn-sm">Buscar relojes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pb-5" style="background-color: burlywood;">
+          <form class="row g-1 gx-2 justify-content-center">
+            <h5 class="text-center">¿Buscas algo para regalar pero te cuesta decidirte?</h5>
+            <p class="text-center mb-0">Haz click en 'Super Regalo' y te damos algunas ideas<br> nuestros básicos nunca fallan <i class="fa-solid fa-face-smile-wink"></i></p>
+            <a href="#" id="regalazo" class="text-center text-dark"></a>
+            <div class="btn btn-danger col-1 justify-content-center" id="btn">Super Regalo</div>
+            <break></break>
+            <div class="col-md-4">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputNombre">
+            </div>
+            <break></break>
+            <div class="col-md-4">
+              <label class="form-label">Email</label>
+              <input type="email" placeholder="ejemplo@email.com" class="form-control" id="inputEmail">
+            </div>
+            <break></break>
+            <div class="col-md-4">
+              <label class="form-label">Contraseña</label>
+              <input type="password" placeholder="Mín. 8 caracteres" class="form-control" id="inputContraseña">
+            </div>
+            <break></break>
+            <div class="col-md-3">
+              <label class="form-label">País</label>
+              <select id="inputPaís" class="form-select">
+                <option selected>Elegir...</option>
+                <option>Alemania</option>
+                <option>Australia</option>
+                <option>Canadá</option>
+                <option>EEUU</option>
+                <option>España</option>
+                <option>Francia</option>
+                <option>Italia</option>
+                <option>Japón</option>
+                <option>Venezuela</option>
+              </select>
+            </div>
+            <div class="col-md-1 float left">
+              <label for="input" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="inputC.P.">
+            </div>
+            <break></break>  
+            <div class="col-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  <a class="text-dark" href="#">He leído y acepto la política de privacidad.</a> 
+                </label>
+              </div>
+            </div>
+            <break></break>
+            <div class="col-1">
+              <button type="submit" class="btn btn-dark">Registrarme</button>
+            </div>
+          </form>  
+        </div>  
+
+        <footer>
+            <div class="container-fluid p-3 mb-8 bg-dark text-white">
+                <div class="row">
+                    <div class="mx-auto" style="width: 200px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/768px-Flag_of_Denmark.svg.png?20200324004249"
+                            alt="logo"></img>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row justify-content-center">
+                    <div class="col-2" href="#">Australia</div>
+                    <div class="col-2" href="#">Alemania</div>
+                    <div class="col-2 ml-2" href="#">España</div>
+                    <div class="col-2" href="#">Venezuela</div>
+                    <div class="col-1" href="#">Francia</div>
+                    
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-2" href="#">EEUU</div>
+                    <div class="col-2" href="#">Canadá</div>
+                    <div class="col-2">Italia</div>
+                    <div class="col-1">Japón</div>
+                </div>
+                <br>
+
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <p>Rua Isabel II, 18.<br>
+                            36001, Pontevedra<br>
+                            España</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col";"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.71952362684!2d-8.648910684874346!3d42.43370463844073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f71c4f4bb011d%3A0xd7df2f56a3982428!2sR%C3%BAa%20Isabel%20II%2C%2036002%20Pontevedra!5e0!3m2!1sen!2ses!4v1646783018033!5m2!1sen!2ses"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <div class="alert alert-warning d-inline-block" role="alert">© 2022, DenmarkApparel.com</div>
+                    </div>
+                </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    
+    </body>
+
 </html>
